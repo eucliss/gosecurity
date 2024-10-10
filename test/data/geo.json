@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-118.2437, 34.0522]
+        },
+        "properties": {
+          "field_name": "Corn Field 1",
+          "area_ha": 10,
+          "last_inspection_date": "2024-01-10",
+          "condition": "Healthy"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-118.2430, 34.0510]
+        },
+        "properties": {
+          "field_name": "Wheat Field 2",
+          "area_ha": 15,
+          "last_inspection_date": "2024-01-12",
+          "condition": "Stressed"
+        }
+      }
+    ]
+  }

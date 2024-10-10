@@ -1,0 +1,22 @@
+<CropHealthData>
+    <Record>
+        <date>2024-01-15</date>
+        <cropType>Wheat</cropType>
+        <height_cm>45</height_cm>
+        <ndvi>0.75</ndvi>
+        <pestPresence>
+            <pestName>Locust</pestName>
+            <affectedArea_percentage>10</affectedArea_percentage>
+        </pestPresence>
+    </Record>
+    <Record>
+        <date>2024-01-15</date>
+        <cropType>Corn</cropType>
+        <height_cm>60</height_cm>
+        <ndvi>0.80</ndvi>
+        <pestPresence>
+            <pestName>None</pestName>
+            <affectedArea_percentage>0</affectedArea_percentage>
+        </pestPresence>
+    </Record>
+</CropHealthData>

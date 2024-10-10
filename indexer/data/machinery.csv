@@ -1,0 +1,5 @@
+timestamp,machine_id,fuel_consumption_liters,hours_operated,maintenance_needed
+2024-01-15,Tractor_1,5,3,false
+2024-01-15,Harvester_1,7,4,true
+2024-01-15,Irrigation_System_1,2,1,false
+2024-01-15,Irrigation_System_1,4,1,false

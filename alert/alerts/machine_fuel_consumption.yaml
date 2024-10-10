@@ -1,0 +1,19 @@
+source: machine_consumption
+index: test-index
+event_sources:
+  - event_source: "machinery"
+query: |
+  {
+    "query": {
+      "match": {
+        "machine_id": "Irrigation_System_1"
+      }
+    }
+  }
+conditions:
+  - field: fuel_consumption_liters
+    operator: GREATER
+    value: 3
+  - field: hours_operated
+    operator: EQUALS
+    value: 1

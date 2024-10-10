@@ -1,0 +1,31 @@
+[{
+    "timestamp": "2023-09-29T10:15:30Z",
+    "source_ip": "192.168.1.100",
+    "destination_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "destination_port": 443,
+    "bytes_sent": 1500,
+    "bytes_received": 1200,
+    "status": "ALLOW"
+  },
+  {
+    "timestamp": "2023-09-29T10:20:45Z",
+    "source_ip": "192.168.1.150",
+    "destination_ip": "8.8.8.8",
+    "protocol": "ICMP",
+    "destination_port": null,
+    "bytes_sent": 64,
+    "bytes_received": 64,
+    "status": "BLOCK"
+  },
+  {
+    "timestamp": "2023-09-29T10:22:10Z",
+    "source_ip": "10.0.0.8",
+    "destination_ip": "192.168.1.200",
+    "protocol": "UDP",
+    "destination_port": 53,
+    "bytes_sent": 512,
+    "bytes_received": 1024,
+    "status": "ALLOW"
+  }
+]

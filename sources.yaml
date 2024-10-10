@@ -1,0 +1,36 @@
+
+file_sources:
+  - name: "Crop Health Data"
+    path: "/data/crop.xml"
+    format: "xml"
+    source: "tractor"
+    description: "Data on crop growth stages and health metrics."
+    target_index: "farming_data"
+
+  - name: "Geo data"
+    path: "/data/geo.json"
+    format: "json"
+    description: "Geothermal data."
+    source: "geographic"
+    target_index: "geographic_data"
+
+  - name: "Network"
+    path: "/data/network.json"
+    format: "json"
+    description: "Network Data"
+    source: "network"
+    target_index: "network_data"
+
+  - name: "Machinery Data"
+    path: "/data/machinery.csv"
+    format: "csv"
+    description: "Information on machinery."
+    source: "machinery"
+    target_index: "machine_data"
+
+  - name: "HTML"
+    path: "/data/html"
+    format: "html"
+    description: "HTML"
+    source: "scraping"
+    target_index: "website_data"

@@ -1,0 +1,20 @@
+source: network_status
+index: test-index
+event_sources:
+  - event_source: "network_monitor"
+  - event_source: "firewall_logs"
+query: |
+  {
+    "query": {
+      "match": {
+        "status": "ALLOW"
+      }
+    }
+  }
+conditions:
+  - field: bytes_sent
+    operator: GREATER
+    value: 100
+  - field: source_ip
+    operator: EQUALS
+    value: 192.168.1.100

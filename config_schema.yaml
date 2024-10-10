@@ -1,0 +1,12 @@
+# config.yaml
+server:
+  host: "localhost"
+  port: 8080
+
+database:
+  type: "elastic"
+  cert_location: "parent/file.crt"
+  host: "localhost"
+  port: "9200"
+  user: "user"
+  password: "pass"
